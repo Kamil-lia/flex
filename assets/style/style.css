@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+.p1 {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root {
+    background-color: rgb(233, 233, 233);
+}
+.header {
+    background-color: rgb(233, 233, 233);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    min-height: 300px;
+    display: flex;
+}
+.footer {
+    background-color: rgb(233, 233, 233);
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.article {
+    background-color: rgb(255, 238, 228);
+    min-width: 65%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.aside {
+    background-color: rgb(234, 255, 234);
+    min-width: 35%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.s0 {
+    width: 96%;
+    min-height: 80px;
+    background-color: rgb(253, 217, 198);
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.s1 {
+    min-width: 46%;
+    min-height: 80px;
+    background-color: rgb(253, 217, 198);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 {
+    display: flex;
+}
+
+.s2 {
+    width: 23%; 
+    min-width: 30px; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
